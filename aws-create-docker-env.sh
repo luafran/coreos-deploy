@@ -1,0 +1,1 @@
+aws cloudformation create-stack --region us-east-1 --stack-name luafran-docker-coreos --parameters ParameterKey=Environment,ParameterValue=docker1 --template-body file://cf_docker-coreos-auto.template
